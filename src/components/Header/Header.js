@@ -3,12 +3,17 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-            <Link to='/home'>Home</Link>
-            <Link to='/sales'>Sales</Link>
-            <Link to='/purchase'>Purchase</Link>
+        <nav>
+            <img src="" alt="ERP Inventory" />
+
+            <div>
+                <Link to='/Sales'>Sales</Link>
+                <Link to='/purchase'>Purchase</Link>
+                <Link to='/inventory'>Inventory</Link>
+            </div>
             
-        </div>
+            
+        </nav>
     );
 };
 
